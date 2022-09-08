@@ -13,11 +13,16 @@ img{
     width: 100%;
 }
 
-h1{
+h1 { 
     display: flex;
     justify-content: center;
     margin: 0px;
+    font-size: 2em;
 }
+h2 {font-size: 1.5em; }
+h3 {font-size: 1em; }
+h4 {font-size: 0.75em; }
+h5 {font-size: .5em; }
 p{
     text-align: justify;
 }
