@@ -1,3 +1,11 @@
+/* ESTILO */
+*::after,
+*::before,
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .bg-light-orange{
     background-color: rgb(230, 190, 96);
 }
@@ -9,36 +17,79 @@
     width: 150px;
 }
 
+/* IMAGENES */
 img{
     width: 100%;
 }
-
+.foto-nosotros{
+    height: auto;
+    padding: 3px;
+    width:400px;
+}
+/* LETRAS */
 h1 { 
     display: flex;
     justify-content: center;
     margin: 0px;
+    padding-top: 1em;
     font-size: 2em;
 }
-h2 {font-size: 1.5em; }
-h3 {font-size: 1em; }
-h4 {font-size: 0.75em; }
-h5 {font-size: .5em; }
+h2 {
+    font-size: 1.5em;
+}
+h3 {
+    font-size: 1.10em;
+}
+h4 {
+    font-size: 0.75em;
+}
+h5 {
+    font-size: .5em;
+}
 p{
-    text-align: justify;
+    font-size: 1em;
+
 }
 
+/* NAV */
+
+nav{
+    border-bottom: 2px solid rgb(208, 104, 20);
+    position: sticky;
+    top: 0;
+}
+/* CARDS */
+.info{
+    display: flex;
+    align-items: center;
+    padding:1em;
+}
+.info-Img{
+    flex: 1 1 30%;
+    text-align: center;
+    width: 100%;
+}
+.info-box{
+    flex: 1 1 70%;
+}
+.info-title{
+    padding: .5em;
+}
+.info-text{
+    padding: .5em;
+    text-align: justify;
+}
 /* Footer */
 Footer{
-    background-color: hsl(42, 78%, 62%);
+    background-color: rgb(230, 190, 96);
     width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-top: 2px solid var(--alternative);
+    border-top: 2px solid rgb(208, 104, 20);
     position: relative;
     bottom: 0;
-    
 }
 Footer a{
     text-decoration: none;
@@ -46,4 +97,29 @@ Footer a{
 Footer a Img{
     height: 30px;
     width: 30px;
+}
+
+
+
+/* RESPONSIVE */
+
+@media screen and (max-width:720px){
+    .info-title{
+        padding: auto;
+    }
+    .foto-nosotros{
+        height: 100%;
+        width: 300px;
+    }
+}
+@media screen and (max-width:670px){
+    .info{
+        display: flex;
+        flex-direction: column;
+        padding:auto;
+    }
+    }
+    .foto-nosotros{
+        height: auto;
+        padding: 3px;
 }

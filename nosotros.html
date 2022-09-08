@@ -15,7 +15,7 @@
     <link rel="shortcut icon" href="Img/Nav/favicon.png" type="image/x-icon">
     <title>Mis Mascotas Accesorios</title>
   </head>
-  <body>
+  <body class="bg-principal">
     <!-- inicia nav -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light-orange" sticky-top id="botonera">
         <div class="container-fluid">
@@ -42,17 +42,50 @@
                     <a class="nav-link" href="contacto.html">Contacto</a> 
                 </li>
             </ul>
-            <!-- <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form> -->
           </div>
         </div>
       </nav>
     <!-- cierra nav -->
-
+    <header class="flex">
+      <Img class="header" src="Img/Header/Header-nosotros.png" alt="Header de Mis Mascotas" >
+  </header>
+  <!-- cierre header -->
+  <main>
+    <h1>NOSOTROS</h1>
+    <section id="info" class="info">
+        <picture class="info-Img">
+            <Img class="foto-nosotros wow fadeInLeft" src= Img/Nosotros/nosotros.jpg alt="Nosotros">
+        </picture>
+        <article class="info-box">
+            <h2 class="info-title">¿Quienes somos?</h2>
+            <p class="info-text">Mis Miscotas es una empresa familiar fundada en el año 2008.
+                Principalmente nos encargamos de la venta de colchones para mascotas, ya que ahí vimos una necesidad para la comodidad del mejor amigo del hombre.                    
+                El interior de nuestros colchones está realizado con materiales 100% reciclados para ayudar a combatir la contaminación. 
+                Y por fuera tiene las mejores telas para el confort de nuestros usuarios.
+                Actualmente somos los encargados de proporcionar un lugar cómodo y cálido a más de un millón de mascotas en toda la Argentina. La gente sigue confiando en nosotros año tras año.</p>
+        </article>
+    </section>
+</main>
+  <Footer>  
+    <h3>Seguinos en nuestras redes:</h3>
+          <div>
+              <a href="https://www.facebook.com/mismascotascordoba" target="_blank">
+              <Img src="Img/Footer/facebook.png" alt="Seguinos en Facebook" height="30" width="30">
+              </a>
+              <a href="https://www.instagram.com/mismascotascba/" target="_blank">
+              <Img src="Img/Footer/instagram.png" alt="Seguinos en Instagram" height="30" width="30">
+               </a> 
+          </div>
+          <div>
+              <h5><b>Mis Mascotas Accesorios</b> &copy;2022</h5>
+          </div>           
+    </Footer>  
+   
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
   </body>
 </html>
