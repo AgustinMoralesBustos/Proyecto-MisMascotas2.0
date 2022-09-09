@@ -42,18 +42,41 @@
                     <a class="nav-link" href="contacto.html">Contacto</a> 
                 </li>
             </ul>
-            <!-- <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form> -->
           </div>
         </div>
       </nav>
     <!-- cierra nav -->
     <header class="flex">
-      <Img class="header" src="#" alt="Header de Mis Mascotas" >
+      <Img class="header" src="Img/Header/header-contacto.png" alt="Header de Mis Mascotas" >
   </header>
   <!-- cierre header -->
+  <main>
+    <h1>CONTACTO</h1>
+    <h3>Dejanos tus datos para ponernos en contacto:</h3>
+    <selections class="contact">
+        <select class="form-select" aria-label="Default select example">
+         <option selected>Motivo de consulta:</option>
+         <option value="1">Quiero hacer un pedio</option>
+         <option value="2">Quiero lista de precios</option>
+        </select>
+        <form class="form" action="envio.php"></form>
+            <label for="Nombre y apellido">Nombre y apellido:</label>
+            <input type="text" id="Nombre y apellido" placeholder="Nombre y apellido">
+                <br>
+            <label for="Correo">Correo electrónico:</label>
+            <input type="email" id="Correo" placeholder="Correo electrónico">
+                <br>
+            <label for="tel">Teléfono:</label>
+            <input type="tel" id="tel" placeholder="Número de teléfono">
+                <br>
+            <label for="comentario">Dejanos un mensaje:</label>
+                <br>
+            <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+                <br>
+            <input type="reset" value="cancelar">
+            <input type="submit" value="enviar">
+    </selections>
+  </main>
   <Footer>  
     <h3>Seguinos en nuestras redes:</h3>
           <div>

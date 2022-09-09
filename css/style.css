@@ -187,6 +187,12 @@ nav{
         height: 100%;
         border-radius: 10px;
     }
+
+/* CONTACTO */
+.form-select{
+width: auto;
+} 
+
 /* Footer */
 Footer{
     background-color: rgb(230, 190, 96);
