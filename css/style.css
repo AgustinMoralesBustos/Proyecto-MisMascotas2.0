@@ -1,3 +1,6 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Roboto:ital@1&display=swap');
+
 /* ESTILO */
 *::after,
 *::before,
@@ -5,6 +8,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+/* BODY */
+body{
+    font-family:'Roboto', sans-serif ;
 }
 .bg-light-orange{
     background-color: rgb(230, 190, 96);
@@ -33,22 +40,30 @@ h1 {
     margin: 0px;
     padding: 1em;
     font-size: 2em;
+    font-family:'Itim', cursive;
 }
 h2 {
     font-size: 1.5em;
+    font-family:'Roboto', sans-serif;
 }
 h3 {
     font-size: 1.10em;
+    font-family:'Roboto', sans-serif;
 }
 h4 {
     font-size: 0.75em;
+    font-family:'Roboto', sans-serif;
 }
 h5 {
     font-size: .5em;
+    font-family:'Roboto', sans-serif;
 }
 p{
     font-size: 1em;
-
+    font-family:'Roboto', sans-serif;
+}
+a{
+    font-family:'Itim', cursive;
 }
 
 /* NAV */
@@ -57,7 +72,10 @@ nav{
     position: sticky;
     top: 0;
 }
-
+.navbar-light{
+    color: rgb(0, 0, 0);
+    font-size: 1.2em;
+}
 /* CARDS */
 .info{
     display: flex;
@@ -86,7 +104,7 @@ nav{
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(3,1fr);
     gap: 1rem;
-    margin: var(--spacing-small);
+    margin: 1em;
 }
 .combo-1{
     grid-column: 1/2;
@@ -189,10 +207,31 @@ nav{
     }
 
 /* CONTACTO */
-.form-select{
-width: auto;
-} 
-
+.comunicate{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1em;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    padding-left: 1em;
+}
+.form{
+    width: 100%;
+    background-color:rgb(193, 161, 74);
+    border: 2px solid rgb(208, 104, 20);
+    border-radius: 5px;
+}
+.mapa{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding-right: 1em;
+    border: 2px solid rgb(208, 104, 20);
+    border-radius: 5px;
+}
 /* Footer */
 Footer{
     background-color: rgb(230, 190, 96);
@@ -204,6 +243,7 @@ Footer{
     border-top: 2px solid rgb(208, 104, 20);
     position: relative;
     bottom: 0;
+    margin-top: 1em;
 }
 Footer a{
     text-decoration: none;
@@ -213,8 +253,31 @@ Footer a Img{
     width: 30px;
 }
 
+/* ANIMACIONES */
+.scale:hover{
+    transform: scale(110%);
+    cursor: pointer;
+}
 
+article button{
+    width: 100px;
+    height: 25px;
+    background:linear-gradient(to top, rgb(68, 4, 4), rgb(208, 104, 20)) ;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+article button:hover{
+    background: linear-gradient(to top, rgb(208, 104, 20), rgb(68, 4, 4));
+    cursor: pointer;
+}
 
+.card-img-top:hover{
+    transform: scale(110%);
+    cursor: zoom-in;
+}
 /* RESPONSIVE */
 
 @media screen and (max-width:720px){
@@ -225,6 +288,31 @@ Footer a Img{
         height: 100%;
         width: 300px;
     }
+    .comunicate{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0%;
+    }
+    .form{
+        width: 70%;
+        background-color:rgb(193, 161, 74);
+        border: 2px solid rgb(208, 104, 20);
+        border-radius: 5px;
+        align-content: center;
+    }
+    .mapa{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding: 0.5em;
+    }
+    
 }
 @media screen and (max-width:670px){
     .info{

@@ -52,30 +52,42 @@
   <!-- cierre header -->
   <main>
     <h1>CONTACTO</h1>
-    <h3>Dejanos tus datos para ponernos en contacto:</h3>
+    <h2>Dejanos tus datos para ponernos en contacto:</h2>      
+    <div class="comunicate">
+      <div>
     <selections class="contact">
+      <form class="form" action="envio.php">
         <select class="form-select" aria-label="Default select example">
          <option selected>Motivo de consulta:</option>
          <option value="1">Quiero hacer un pedio</option>
          <option value="2">Quiero lista de precios</option>
         </select>
-        <form class="form" action="envio.php"></form>
             <label for="Nombre y apellido">Nombre y apellido:</label>
+            <br>
             <input type="text" id="Nombre y apellido" placeholder="Nombre y apellido">
-                <br>
+            <br>
             <label for="Correo">Correo electrónico:</label>
+            <br>
             <input type="email" id="Correo" placeholder="Correo electrónico">
-                <br>
-            <label for="tel">Teléfono:</label>
+            <br>
+            <label for="tel">Número de teléfono:</label>
+            <br>
             <input type="tel" id="tel" placeholder="Número de teléfono">
-                <br>
+            <br>
             <label for="comentario">Dejanos un mensaje:</label>
-                <br>
+            <br>
             <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
-                <br>
+            <br>
             <input type="reset" value="cancelar">
             <input type="submit" value="enviar">
+      </form>
+      </div>
+      <div>
+        <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1510.8434608385046!2d-64.17710141905857!3d-31.385018764962393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432984146d7d5ed%3A0x385716f93bdc8c0e!2sAvenida%20Juan%20B.%20Justo%203415%2C%20C%C3%B3rdoba!5e1!3m2!1ses-419!2sar!4v1663024994671!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
     </selections>
+    
   </main>
   <Footer>  
     <h3>Seguinos en nuestras redes:</h3>
