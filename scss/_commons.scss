@@ -1,0 +1,53 @@
+//Letras
+@import "_fonts";
+h1 { 
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 1em;
+    font-size: $text-large;
+    font-family: $font-titles;
+}
+h2 {
+    font-size: $text-medium;
+    font-family: $font-principal;
+}
+h3 {
+    font-size: 1.10em;
+    font-family: $font-principal;
+}
+h4 {
+    font-size: $text-small;
+    font-family: $font-principal;
+}
+h5 {
+    font-size: $text-xsmall;
+    font-family: $font-principal;
+}
+p{
+    font-size: $text-base;
+    font-family: $font-principal;
+}
+a{
+    font-size: 2.5em;
+    font-family: $font-titles;
+}
+
+//Fondos
+.bg-light-orange{
+    background-color: rgb(230, 190, 96);
+}
+
+.bg-principal{
+    background-color: rgb(234, 188, 83)
+}
+
+//Img
+img{
+    width: 100%;
+}
+.foto-nosotros{
+    height: auto;
+    padding: 3px;
+    width:400px;
+}

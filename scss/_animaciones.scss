@@ -1,0 +1,24 @@
+.scale:hover{
+    transform: scale(110%);
+    cursor: pointer;
+}
+
+article button{
+    width: 100px;
+    height: 25px;
+    background:linear-gradient(to top, rgb(68, 4, 4), rgb(208, 104, 20)) ;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+article button:hover{
+    background: linear-gradient(to top, rgb(208, 104, 20), rgb(68, 4, 4));
+    cursor: pointer;
+}
+
+.card-img-top:hover{
+    transform: scale(110%);
+    cursor: zoom-in;
+}

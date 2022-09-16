@@ -1,0 +1,19 @@
+Footer{
+    background-color: rgb(230, 190, 96);
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 2px solid rgb(208, 104, 20);
+    position: relative;
+    bottom: 0;
+    margin-top: 1em;
+}
+Footer a{
+    text-decoration: none;
+}
+Footer a Img{
+    height: 30px;
+    width: 30px;
+}
