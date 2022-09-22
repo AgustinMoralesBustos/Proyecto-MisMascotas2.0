@@ -38,22 +38,8 @@ a {
   font-family: "Itim", cursive;
 }
 
-.bg-light-orange {
-  background-color: rgb(230, 190, 96);
-}
-
-.bg-principal {
-  background-color: rgb(234, 188, 83);
-}
-
 img {
   width: 100%;
-}
-
-.foto-nosotros {
-  height: auto;
-  padding: 3px;
-  width: 400px;
 }
 
 nav {
@@ -70,6 +56,25 @@ nav {
 
 #botonera img {
   width: 150px;
+}
+
+.bg-light-orange {
+  background-color: rgb(230, 190, 96);
+}
+
+.bg-principal {
+  background-color: rgb(234, 188, 83);
+}
+
+mark {
+  background-color: rgb(176, 110, 56);
+  border-radius: 5px;
+}
+
+.foto-nosotros {
+  height: auto;
+  padding: 3px;
+  width: 400px;
 }
 
 .info {
@@ -172,6 +177,10 @@ nav {
 
 .item-i {
   grid-row: 4/6;
+}
+
+.clientes {
+  height: 100%;
 }
 
 .comunicate {
