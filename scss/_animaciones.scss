@@ -9,7 +9,7 @@ article button{
     background:linear-gradient(to top, rgb(68, 4, 4), rgb(208, 104, 20)) ;
     display: flex;
     justify-content: center;
-    color: #fff;
+    color: map-get($map:$paleta , $key:'seis');
     border: none;
     border-radius: 4px;
 }

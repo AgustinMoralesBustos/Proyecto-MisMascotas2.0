@@ -1,7 +1,10 @@
-@import "_commons";
-@import "_fonts";
-@import "_navbar";
-@import "_content";
-@import "_footer";
-@import "_animaciones";
-@import "_responsive";
+@import "./commons";
+@import "./variables";
+@import "./fonts";
+@import "./navbar";
+@import "./content";
+@import "./img";
+@import "./footer";
+@import "./mixins";
+@import "./animaciones";
+@import "./responsive";

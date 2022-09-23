@@ -20,8 +20,8 @@
     }
     .form{
         width: 70%;
-        background-color:rgb(193, 161, 74);
-        border: 2px solid rgb(208, 104, 20);
+        background-color:map-get($map:$paleta , $key:'cinco');
+        border: 2px solid map-get($map:$paleta , $key:'uno');
         border-radius: 5px;
         align-content: center;
     }

@@ -1,10 +1,10 @@
 nav{
-    border-bottom: 2px solid rgb(208, 104, 20);
+    border-bottom: 2px solid map-get($map:$paleta , $key:'uno');
     position: sticky;
     top: 0;
 }
 .navbar-light{
-    color: rgb(0, 0, 0);
+    color: map-get($map:$paleta , $key:'siete');
     font-size: $text-xsmall;
 }
 
