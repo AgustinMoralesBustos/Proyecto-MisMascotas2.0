@@ -1,0 +1,24 @@
+//map
+$paleta:(
+    'uno': rgb(208, 104, 20),
+    'dos': rgb(176, 110, 56),
+    'tres':rgb(234, 188, 83),
+    'cuatro':rgb(230, 190, 96),
+    'cinco':rgb(193, 161, 74),
+    'seis': rgb(255, 255, 255),
+    'siete': rgb(0, 0, 0),
+);
+//Fondos
+.bg-light-orange{
+    background-color: map-get($map:$paleta , $key:'cuatro');
+}
+.bg-principal{
+    background-color: map-get($map:$paleta, $key:'tres')
+}
+.bg-error{
+    background: url(../Img/Header/fondo-min.png);
+}
+mark{
+    background-color: map-get($map:$paleta, $key:'dos');
+    border-radius: 10px;
+}

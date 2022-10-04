@@ -1,0 +1,13 @@
+nav{
+    border-bottom: 2px solid map-get($map:$paleta , $key:'uno');
+    position: sticky;
+    top: 0;
+}
+.navbar-light{
+    color: map-get($map:$paleta , $key:'siete');
+    font-size: $text-xsmall;
+}
+
+#botonera img{
+    width: 150px;
+}
