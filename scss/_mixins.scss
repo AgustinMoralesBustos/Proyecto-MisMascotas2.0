@@ -15,3 +15,10 @@ $paleta:(
 .bg-principal{
     background-color: map-get($map:$paleta, $key:'tres')
 }
+.bg-error{
+    background: url(../Img/Header/fondo-min.png);
+}
+mark{
+    background-color: map-get($map:$paleta, $key:'dos');
+    border-radius: 10px;
+}

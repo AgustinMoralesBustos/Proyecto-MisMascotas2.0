@@ -40,7 +40,8 @@
         padding:auto;
     }
     .info-text{
-        padding: 1.1em;
+        padding: 1em;
+        padding-top: 0em;
         text-align: justify;
     }
 
@@ -77,5 +78,9 @@
         }
         .combo-6{
             grid-row: 6/6;
+        }
+
+        .error-font{
+            font-size: 1.3em;
         }
 }

@@ -4,11 +4,7 @@
 }
 
 article button{
-    width: 100px;
-    height: 25px;
-    background:linear-gradient(to top, rgb(68, 4, 4), rgb(208, 104, 20)) ;
-    display: flex;
-    justify-content: center;
+    background:linear-gradient(to top, rgb(68, 48, 4), rgb(208, 104, 20)) ;
     color: map-get($map:$paleta , $key:'seis');
     border: none;
     border-radius: 4px;
@@ -17,7 +13,6 @@ article button:hover{
     background: linear-gradient(to top, rgb(208, 104, 20), rgb(68, 4, 4));
     cursor: pointer;
 }
-
 .card-img-top:hover{
     transform: scale(110%);
     cursor: zoom-in;

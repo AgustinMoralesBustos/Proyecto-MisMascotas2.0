@@ -1,4 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Itim&family=Roboto:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Itim&family=Roboto:ital@1&display=swap");
+.bg-light-orange {
+  background-color: rgb(230, 190, 96);
+}
+
+.bg-principal {
+  background-color: rgb(234, 188, 83);
+}
+
+.bg-error {
+  background: url(../Img/Header/fondo-min.png);
+}
+
+mark {
+  background-color: rgb(176, 110, 56);
+  border-radius: 10px;
+}
+
 h1 {
   display: flex;
   justify-content: center;
@@ -6,6 +24,7 @@ h1 {
   padding: 1em;
   font-size: 2em;
   font-family: "Itim", cursive;
+  color: rgb(0, 0, 0);
 }
 
 h2 {
@@ -36,10 +55,8 @@ p {
 a {
   font-size: 2.5em;
   font-family: "Itim", cursive;
-}
-
-img {
-  width: 100%;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
 }
 
 nav {
@@ -58,29 +75,9 @@ nav {
   width: 150px;
 }
 
-.bg-light-orange {
-  background-color: rgb(230, 190, 96);
-}
-
-.bg-principal {
-  background-color: rgb(234, 188, 83);
-}
-
-mark {
-  background-color: rgb(176, 110, 56);
-  border-radius: 5px;
-}
-
-.foto-nosotros {
-  height: auto;
-  padding: 3px;
-  width: 400px;
-}
-
 .info {
   display: flex;
   align-items: center;
-  padding: 1em;
 }
 
 .info-Img {
@@ -95,10 +92,12 @@ mark {
 
 .info-title {
   padding: 0.5em;
+  padding-bottom: 0em;
 }
 
 .info-text {
-  padding-right: 1.1em;
+  padding: 1em;
+  padding-top: 0em;
   text-align: justify;
 }
 
@@ -179,10 +178,6 @@ mark {
   grid-row: 4/6;
 }
 
-.clientes {
-  height: 100%;
-}
-
 .comunicate {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -210,6 +205,41 @@ mark {
   padding-right: 1em;
   border: 2px solid rgb(208, 104, 20);
   border-radius: 5px;
+}
+
+.error-font {
+  font-size: 1.5em;
+  padding-left: 3em;
+}
+
+article button a {
+  color: rgb(255, 255, 255);
+  padding-left: 40%;
+  padding-right: 40%;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  font-size: 1em;
+}
+
+img {
+  width: 100%;
+}
+
+.clientes {
+  height: 100%;
+}
+
+.error {
+  width: 20em;
+  height: 20em;
+  display: block;
+  margin: auto;
+}
+
+.foto-nosotros {
+  height: auto;
+  padding: 3px;
+  width: 400px;
 }
 
 Footer {
@@ -240,12 +270,8 @@ Footer a Img {
 }
 
 article button {
-  width: 100px;
-  height: 25px;
-  background: linear-gradient(to top, rgb(68, 4, 4), rgb(208, 104, 20));
-  display: flex;
-  justify-content: center;
-  color: #fff;
+  background: linear-gradient(to top, rgb(68, 48, 4), rgb(208, 104, 20));
+  color: rgb(255, 255, 255);
   border: none;
   border-radius: 4px;
 }
@@ -300,7 +326,8 @@ article button:hover {
     padding: auto;
   }
   .info-text {
-    padding: 1.1em;
+    padding: 1em;
+    padding-top: 0em;
     text-align: justify;
   }
   .foto-nosotros {
@@ -336,5 +363,8 @@ article button:hover {
   }
   .combo-6 {
     grid-row: 6/6;
+  }
+  .error-font {
+    font-size: 1.3em;
   }
 }/*# sourceMappingURL=main.css.map */

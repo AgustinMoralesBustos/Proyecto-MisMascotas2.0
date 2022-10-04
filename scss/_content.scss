@@ -3,7 +3,6 @@
 .info{
     display: flex;
     align-items: center;
-    padding:1em;
 }
 .info-Img{
     flex: 1 1 30%;
@@ -15,9 +14,11 @@
 }
 .info-title{
     padding: .5em;
+    padding-bottom: 0em;
 }
 .info-text{
-    padding-right: 1.1em;
+    padding:1em;
+    padding-top: 0em;
     text-align: justify;
 }
 
@@ -110,4 +111,17 @@
         padding-right: 1em;
         border: 2px solid rgb(208, 104, 20);
         border-radius: 5px;
+    }
+    //404
+    .error-font{
+        font-size: $text-medium;
+        padding-left: 3em;
+    }
+    article button a{
+        color: map-get($map: $paleta, $key:seis );
+        padding-left: 40%;
+        padding-right: 40%;
+        padding-top: .3em;
+        padding-bottom: .3em;
+        font-size: $text-base;
     }
