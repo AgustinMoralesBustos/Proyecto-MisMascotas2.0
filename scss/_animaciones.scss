@@ -8,10 +8,10 @@ article button{
     color: map-get($map:$paleta , $key:'seis');
     border: none;
     border-radius: 4px;
-}
-article button:hover{
-    background: linear-gradient(to top, rgb(208, 104, 20), rgb(68, 4, 4));
-    cursor: pointer;
+        :hover{
+        background: linear-gradient(to top, rgb(208, 104, 20), rgb(68, 4, 4));
+        cursor: pointer;
+        }
 }
 .card-img-top:hover{
     transform: scale(110%);
