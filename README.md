@@ -8,6 +8,7 @@ Espacio publicitario:
         ° https://github.com/AgustinMoralesBustos/Proyecto-MisMascotas2.0.git (Git)
 
 Todos los botones de compra llevan a la pagina Error 404 :)
+Todos los commit estan en la parte de SEO
 
 Experiencia:
 Me lo pase muy bien, fue una cursada bastante agradable. La profe y la coordinadora (Laura y Cami) un lujo las dos, siempre con buena onda y dando el 100%, haciendo un trabajo exelente y superando mis expectativas.
